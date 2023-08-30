@@ -1,0 +1,7 @@
+export enum ETransaction {
+    PENDING = 'PENDING',
+    PROCESSING = 'PROCESSING',
+    REJECTED = 'REJECTED',
+    SUCCESS = 'SUCCESS',
+    CANCELLED = 'CANCELLED',
+}
